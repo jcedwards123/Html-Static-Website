@@ -1,0 +1,51 @@
+/* Reset default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background colors */
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+header, nav, main, footer {
+    background-color: #13b356; /* Yellow */
+    color: #3711a1; /* Black */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+#h2{
+    color: #000;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #007bff; /* Light blue */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Add hover effect to navigation menu items */
+nav ul li:hover {
+    background-color: #000; /* Black */
+    color: #ffc107; /* Yellow */
+    transition: background-color 0.3s, color 0.3s;
+}
