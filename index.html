@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>My Website</title>
+    <style>
+        table {
+            border-collapse: collapse; 
+            width: 100%; 
+            border: 2px solid #000; 
+        }
+        
+        td {
+            border: 1px solid #000; 
+            padding: 8px; 
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -24,7 +36,27 @@
             <p>
                 Hi my name is Jonathan Edwards, I'm a Senior at Brooklyn Tech and I've made this website to tell you a little bit about myself and my interests!<br> As for starter information, I'm 17 years old, and I live in a family of 4 with my 8 year old brother. I hope the information on this website proves to be useful.
             </p>
+            <h2>Tell me your favorite animal!</h2>
+            <form id="favoriteAnimalForm">
+                <label for="favoriteAnimal">What is your favorite animal?</label>
+                <input type="text" id="favoriteAnimal" name="favoriteAnimal" required>
+                <br>
+                <input type="submit" value="Submit" onclick="return false;">
+            </form>
         </section>
+        <h2>My Schedule</h2>
+        <table>
+            <tr>
+                <td>IT Infastructure</td>
+                <td>DE/Web Dev</td>
+                <td>DE/Web Dev</td>
+                <td>Macro Econ</td>
+                <td>Rotating Period</td>
+                <td>Psychology</td>
+                <td>Horror</td>
+            </tr>
+        </table>
+        
     </main>
     <footer>
         <p>&copy; 2023 Jonathan Edwards</p>
